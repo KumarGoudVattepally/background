@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>textforms</title>
+    <style>
+      .ch {
+        border: 5px solid black;
+        width: 700px;
+        height: 700px;
+        padding: 15px;
+      }
+      .t1 {
+        border: 3px solid;
+        width: 200px;
+        height: 190px;
+        float: left;
+        background-color: darkgreen;
+        background-image: url(./assets/images/virat.jpg);
+        background-size: 100px;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .t2 {
+        border: 3px solid black;
+        width: 200px;
+        height: 190px;
+        float: right;
+        clear: right;
+        background-image: linear-gradient(red, yellow, blue);
+      }
+
+      .t3 {
+        border: 3px solid black;
+        width: 200px;
+        height: 190px;
+        float: left;
+        clear: left;
+        margin-top: 50px;
+
+        background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+      }
+      .t4 {
+        border: 3px solid black;
+        width: 200px;
+        height: 190px;
+        float: right;
+        clear: right;
+        margin-top: 50px;
+        background-image: repeating-linear-gradient(
+          to right,
+          red,
+          yellow 10%,
+          green 20%
+        );
+      }
+
+      .t5 {
+        border: 3px solid black;
+        width: 200px;
+        height: 190px;
+        float: left;
+        clear: left;
+        margin-top: 50px;
+        background-size: 100px;
+        background-repeat: no-repeat;
+        background-color: blueviolet;
+        background-image: url(./assets/images/rcblogo.jpg);
+        background-position: center;
+      }
+      .t6 {
+        border: 3px solid black;
+        width: 200px;
+        height: 190px;
+        float: right;
+        clear: right;
+        margin-top: 50px;
+        background-image: linear-gradient(to bottom right, red, blue);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ch">
+      <div class="t1"></div>
+      <div class="t2"></div>
+      <div class="t3"></div>
+      <div class="t4"></div>
+      <div class="t5"></div>
+      <div class="t6"></div>
+    </div>
+  </body>
+</html>
